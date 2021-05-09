@@ -2,5 +2,5 @@
 ../App/Inc/itm.hpp:42:7:void Itm<Mode>::send_block(const char*, index_t) [with BusMode Mode = BusMode::BLOCKING]	8	static
 ../../Abstract/conv.hpp:230:13:static int NumConvert::ftoaEngine(float, char*, int)	32	static
 ../../Abstract/conv.hpp:105:13:static Ret NumConvert::to_string_float(float, char*)	72	static
-../App/Inc/bm_stream.hpp:75:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:17) [with auto:17 = float; Bus = BusInterface<Itm<BusMode::BLOCKING> >; char Delim = ' ']	16	static
-../App/Src/stream_test.cpp:14:6:void test()	80	static
+../App/Inc/bm_stream.hpp:78:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:17) [with auto:17 = float; Bus = BusInterface<Itm<BusMode::BLOCKING> >; char Delim = ' ']	16	static
+../App/Src/stream_test.cpp:33:6:void test()	80	static

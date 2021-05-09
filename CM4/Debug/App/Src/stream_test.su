@@ -1,7 +1,7 @@
 ../../Abstract/conv.hpp:204:23:static divmod10_t<N> NumConvert::divmodu10(const N&) [with N = long unsigned int]	0	static
 ../../Abstract/conv.hpp:230:13:static int NumConvert::ftoaEngine(float, char*, int)	32	static
 ../../Abstract/conv.hpp:105:13:static Ret NumConvert::to_string_float(float, char*)	72	static
-../App/Inc/bm_stream.hpp:60:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:16) [with auto:16 = char; Bus = BusInterface<Uart<BusMode::DMA> >; char Delim = ' ']	0	static
-../App/Inc/bm_stream.hpp:75:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:17) [with auto:17 = float; Bus = BusInterface<Uart<BusMode::DMA> >; char Delim = ' ']	16	static
+../App/Inc/bm_stream.hpp:63:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:16) [with auto:16 = char; Bus = BusInterface<Uart<BusMode::DMA> >; char Delim = ' ']	0	static
+../App/Inc/bm_stream.hpp:78:12:StreamBase<Bus, Delim>::stream_t& StreamBase<Bus, Delim>::operator<<(auto:17) [with auto:17 = float; Bus = BusInterface<Uart<BusMode::DMA> >; char Delim = ' ']	16	static
 c:\program files (x86)\gnu arm embedded toolchain\10 2020-q4-major\arm-none-eabi\include\c++\10.2.1\bits\stl_iterator_base_funcs.h:224:5:constexpr _BidirectionalIterator std::prev(_BidirectionalIterator, typename std::iterator_traits<_Iter>::difference_type) [with _BidirectionalIterator = __gnu_cxx::__normal_iterator<char*, std::span<char> >]	0	static
-../App/Src/stream_test.cpp:14:6:void test()	80	static
+../App/Src/stream_test.cpp:33:6:void test()	80	static

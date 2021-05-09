@@ -56,6 +56,9 @@ public:
 
 	StreamBase() = default;
 	~StreamBase(){ if constexpr (BusMode::BLOCKING != mode) flush(); }
+	StreamBase(const StreamBase&) = delete;
+	StreamBase& operator= (const StreamBase&) = delete;
+
 
 	stream_t& operator << (const char_type auto c){
 
